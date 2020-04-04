@@ -1,0 +1,22 @@
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 40px;
+    padding: 0 8px;
+
+    background-color: #373737;
+    color: #ffd;
+}
+
+.footer .copyright {
+    margin-left: auto;
+}
+
+.footer.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

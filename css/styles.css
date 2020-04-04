@@ -1,0 +1,16 @@
+@import './shared/reset.css';
+@import './shared/default.css';
+@import './shared/navbar.css';
+@import './shared/footer.css';
+
+@import './shared/section.css';
+
+body {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+main {
+    width: 100%;
+}
